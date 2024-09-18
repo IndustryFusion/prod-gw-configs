@@ -1,0 +1,39 @@
+ip_address: 192.168.49.151
+main_topic: ''
+protocol: opc-ua
+app_config:
+  fusionopcuadataservice:
+    specification:
+      - node_id: ns=4
+        identifier: i=39
+        parameter: https://industry-fusion.org/base/v0.1/machine_state
+      - node_id: ns=4
+        identifier: i=40
+        parameter: https://industry-fusion.org/base/v0.1/power_consumption
+      - node_id: ns=4
+        identifier: i=24
+        parameter: https://industry-fusion.org/base/v0.1/operating_hours
+      - node_id: ns=4
+        identifier: i=42
+        parameter: https://industry-fusion.org/base/v0.1/input_pressure
+      - node_id: ns=4
+        identifier: i=47
+        parameter: https://industry-fusion.org/base/v0.1/motor_frequency
+      - node_id: ns=4
+        identifier: i=46
+        parameter: https://industry-fusion.org/base/v0.1/pressure_difference
+      - node_id: ns=4
+        identifier: i=43
+        parameter: https://industry-fusion.org/base/v0.1/volumentric_flow_rate
+pod_name: aircube110kw-opc-ua
+pdt_mqtt_hostname: emqx-platform.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-10d4184d-b463-5981-b24c-969264a8d694
+gateway_id: urn:ifric:ifx-eur-nld-ast-10d4184d-b463-5981-b24c-969264a8d694
+keycloak_url: https://platform.industry-fusion.com/auth/realms
+realm_password: lNzj3cavJkO9ShEEfMrmLIzommKwIDI1
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionopcuadataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.3
