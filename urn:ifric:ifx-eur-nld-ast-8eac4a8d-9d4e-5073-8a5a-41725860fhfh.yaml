@@ -1,0 +1,38 @@
+ip_address: 192.168.49.0
+main_topic: airtracker-74145/relay1
+protocol: mqtt
+app_config:
+  fusionmqttdataservice:
+    specification:
+      - topic: airtracker-74145/relay1
+        key: []
+        parameter:
+          - https://industry-fusion.org/base/v0.1/machine_state
+      - topic: airtracker-74145/dust
+        key: []
+        parameter:
+          - https://industry-fusion.org/base/v0.1/dustiness
+      - topic: airtracker-74145/temperature
+        key: []
+        parameter:
+          - https://industry-fusion.org/base/v0.1/temperature
+      - topic: airtracker-74145/humidity
+        key: []
+        parameter:
+          - https://industry-fusion.org/base/v0.1/humidity
+      - topic: airtracker-74145/noise
+        key: []
+        parameter:
+          - https://industry-fusion.org/base/v0.1/noise
+pod_name: airtrackerb-mqtt
+pdt_mqtt_hostname: emqx-platform.industry-fusion.com
+pdt_mqtt_port: 8883
+secure_config: true
+device_id: urn:ifric:ifx-eur-nld-ast-8eac4a8d-9d4e-5073-8a5a-41725860fhfh
+gateway_id: urn:ifric:ifx-eur-nld-ast-8eac4a8d-9d4e-5073-8a5a-41725860fhfh
+keycloak_url: https://platform.industry-fusion.com/auth/realms
+realm_password: lNzj3cavJkO9ShEEfMrmLIzommKwIDI1
+username_config: ''
+password_config: ''
+dataservice_image_config: fusionmqttdataservice:latest
+agentservice_image_config: iff-iot-agent:v0.0.3
