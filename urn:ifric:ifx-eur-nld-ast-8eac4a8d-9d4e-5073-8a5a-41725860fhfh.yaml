@@ -1,4 +1,4 @@
-ip_address: 192.168.49.0
+ip_address: 212.227.245.168
 main_topic: airtracker-74145/relay1
 protocol: mqtt
 app_config:
@@ -31,8 +31,8 @@ secure_config: true
 device_id: urn:ifric:ifx-eur-nld-ast-8eac4a8d-9d4e-5073-8a5a-41725860fhfh
 gateway_id: urn:ifric:ifx-eur-nld-ast-8eac4a8d-9d4e-5073-8a5a-41725860fhfh
 keycloak_url: https://platform.industry-fusion.com/auth/realms
-realm_password: lNzj3cavJkO9ShEEfMrmLIzommKwIDI1
-username_config: ''
+realm_password: '@zN8k51@ORJg'
+username_config: factory_admin@industry-fusion.com
 password_config: ''
 dataservice_image_config: fusionmqttdataservice:latest
 agentservice_image_config: iff-iot-agent:v0.0.3
