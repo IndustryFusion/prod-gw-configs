@@ -29,8 +29,8 @@ pod_name: aircube110kw-opc-ua
 pdt_mqtt_hostname: emqx-platform.industry-fusion.com
 pdt_mqtt_port: 8883
 secure_config: true
-device_id: urn:ifric:ifx-eur-nld-ast-10d4184d-b463-5981-b24c-969264a8d694
-gateway_id: urn:ifric:ifx-eur-nld-ast-10d4184d-b463-5981-b24c-969264a8d694
+device_id: urn:ifric:ifx-eur-nld-ast-d852b871-9631-5d81-bc54-cbf2f8c43dd2
+gateway_id: urn:ifric:ifx-eur-nld-ast-d852b871-9631-5d81-bc54-cbf2f8c43dd2
 keycloak_url: https://platform.industry-fusion.com/auth/realms
 realm_password: lNzj3cavJkO9ShEEfMrmLIzommKwIDI1
 username_config: ''
