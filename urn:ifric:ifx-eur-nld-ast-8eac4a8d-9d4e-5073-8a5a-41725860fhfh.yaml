@@ -28,8 +28,8 @@ pod_name: airtrackerb-mqtt
 pdt_mqtt_hostname: emqx-platform.industry-fusion.com
 pdt_mqtt_port: 8883
 secure_config: true
-device_id: urn:ifric:ifx-eur-nld-ast-8eac4a8d-9d4e-5073-8a5a-41725860fhfh
-gateway_id: urn:ifric:ifx-eur-nld-ast-8eac4a8d-9d4e-5073-8a5a-41725860fhfh
+device_id: urn:ifric:ifx-eur-nld-ast-69c1ee1c-de59-571d-bfe5-11e9b0a6d221
+gateway_id: urn:ifric:ifx-eur-nld-ast-69c1ee1c-de59-571d-bfe5-11e9b0a6d221
 keycloak_url: https://platform.industry-fusion.com/auth/realms
 realm_password: lNzj3cavJkO9ShEEfMrmLIzommKwIDI1
 username_config: ''
