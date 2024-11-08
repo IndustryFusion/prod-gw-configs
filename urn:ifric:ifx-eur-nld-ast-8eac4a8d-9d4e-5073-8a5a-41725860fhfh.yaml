@@ -31,7 +31,7 @@ secure_config: true
 device_id: urn:ifric:ifx-eur-nld-ast-69c1ee1c-de59-571d-bfe5-11e9b0a6d221
 gateway_id: urn:ifric:ifx-eur-nld-ast-69c1ee1c-de59-571d-bfe5-11e9b0a6d221
 keycloak_url: https://platform.industry-fusion.com/auth/realms
-realm_password: lNzj3cavJkO9ShEEfMrmLIzommKwIDI1
+realm_password: HyIMnASrDJTmA5qHntZMu7uEguZyvxmr
 username_config: ''
 password_config: ''
 dataservice_image_config: fusionmqttdataservice:latest
